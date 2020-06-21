@@ -40,7 +40,11 @@ footer, header, hgroup, menu, nav, section {
 a{
 	text-decoration: none;
 	text-transform: none;
-	color: #4A90E2;
+	color: #5862C2;
+}
+a:hover {
+  color: #343a74;
+  transition: 0.5s;
 }
 
 body {
@@ -50,7 +54,7 @@ body {
 	-webkit-font-smoothing : antialiased;
 	font-size: 19px;
 	background-color: #FEFEFE;
-	color: #04143A;
+	color: #191a1b;
 }
 ol, ul {
 	list-style: none;
@@ -106,20 +110,26 @@ h1.name {
 
 .job-title {
 	vertical-align: top;
-	background-color: #D9E7F8;
-	color: #4A90E2;
+	background-color: #dddff2;
+	color: #5862C2;
 	font-weight: 600;
-	margin-top: 5px;
+	margin-top: 12px;
 	margin-left: 20px;
 	border-radius: 5px;
 	display: inline-block;
 	padding: 15px 25px;
 }
 
+.job-title:hover {
+  color: #fff;
+  background-color: #5862c2;
+  transition: 0.5s;
+}
+
 .email {
 	display: block;
 	font-size: 24px;
-	font-weight: 300;
+	font-weight: 700;
 	color: #81899C;
 	margin-top: 10px;
 }
@@ -159,7 +169,7 @@ h1.name {
 
 .list-card .exp {
 	margin-right: 15px;
-	color: #4A90E2;
+	color: #191a1b;
 	font-weight: 600;
 	width: 100px;
 }
@@ -171,14 +181,14 @@ h1.name {
 .list-card h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #5B6A9A;
+	color: #5862C2;
 	line-height: 26px;
 	margin-bottom: 8px;
 }
 
 .list-card div span {
 	font-size: 16px;
-	color: #81899C;
+	color: #050506;
 	line-height: 22px;
 }
 
@@ -222,7 +232,7 @@ h1.name {
 .skill-level span {
 	font-size: 35px;
 	font-weight: 300;
-	color: #5B6A9A;
+	color: #5862C2;
 	vertical-align: top;
 }
 
@@ -231,7 +241,7 @@ h1.name {
 	font-weight: 300;
 	display: inline-block;
 	vertical-align: top;
-	color: #5B6A9A;
+	color: #5862C2;
 	letter-spacing: -5px;
 }
 
@@ -247,12 +257,12 @@ h1.name {
 .skill-meta h3 {
 	font-size: 20px;
 	font-weight: 800;
-	color: #5B6A9A;
+	color: #5862C2;
 	margin-bottom: 5px;
 }
 
 .skill-meta span{
-	color: #81899C;
+	color: #191a1b;
 	line-height: 20px;
 	font-size: 16px;
 }
@@ -308,7 +318,7 @@ li .line {
   left: 1%;
   font-size: 20px;
   font-weight: 600;
-  color: #04143A;
+  color: #191a1b;
 }
 li .point {
 	content: "";
@@ -319,7 +329,7 @@ li .point {
 	height: 8px;
 	border: 4px solid #fff;
 	border-radius: 10px;
-	background: #4A90E2;
+	background: #343a74;
   position: absolute;
 }
 li .description {
@@ -333,7 +343,7 @@ li .description {
   font-size: 18px;
   font-weight: 600;
   line-height: 25px;
-  color: #5B6A9A;
+  color: #5862C2;
 }
 .description::before {
   content: '';
@@ -350,8 +360,14 @@ li .description {
 
 .timeline .date{
 	font-size: 14px;
-	color: #81899C;
-	font-weight: 300;
+	color: #191a1b;
+	font-weight: 700;
+}
+
+.timeline .detail{
+	font-size: 14px;
+	color: #191a1b;
+	font-weight: 500;
 }
 
 /* ---- Hover effects ---- */
